@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap");
+
+html {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  line-height: 19.5px;
+  font-weight: 400;
+}
+
+a {
+  text-decoration: none;
+}
+
+/****************CATALOG*******************/
+
+.head-order {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 46px;
+  gap: 20px;
+}
+
+.head-order h1 {
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 55px;
+}
+
+.card-border {
+  border-radius: 20px;
+}
+
+.card-txt {
+  position: absolute;
+  display: flex;
+  height: 50px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 20px;
+  bottom: 0;
+}
+
